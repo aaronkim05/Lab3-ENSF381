@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+    }
+.item {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+.item_img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.item:nth-child(1) {
+    order: 3;
+}
+.item:nth-child(2) {
+    order: 1;
+}
+.item:nth-child(3) {
+    order: 2;
+}
